@@ -1,6 +1,4 @@
-## General Java
-
-#### Optional in Java8
+# Optional in Java8
 
 Used in our code as follows:
 ```
