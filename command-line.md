@@ -38,3 +38,14 @@ To remove across all sessions, remove from .zshrc and run source .zshrc
 ### MacOS
 
 In finder type shift + ⌘ commmd + . to make invisible files visible
+
+### Commands
+
+`which kubectl` => /usr/local/bin/kubectl
+`ls -la /usr/local/bin/kubectl` => tells you where this command is aliased to, you can override this in .zshrc I think
+`lrwxr-xr-x  1 eflint  admin  43  7 Aug 15:21 /usr/local/bin/kubectl -> ../Cellar/kubernetes-cli/1.15.2/bin/kubectl`
+
+### Brew
+
+`brew info kubectl`
+Find out which version is running (then used commands above to check I was running the version of kubectl I'd installed via Brew, if I'd downloaded it via a Docker image it might be using another bin programme ie. not in Cellar as above)

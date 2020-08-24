@@ -15,6 +15,13 @@
 - `M` jump to middle of window
 - `L` jump to bottom of window
 
+- `f` find eg. `f{`
+
+Use `hjkl` with motions
+Eg delete 6 lines `d7j` - delete 7 lines down
+
+
+
 ## Deletions
 
 `dw` delete a word
@@ -34,6 +41,8 @@
 - `r` replace, to change an `a` to a `b` hover over `a` and type `rb`
 - `R` - replace mode, type over a word, then hit escape to come out of mode
 - `ce` change to the end of a word
+- `ea` append to end of word
+- `cc` change whole line
 
 ## Substitutions
 
