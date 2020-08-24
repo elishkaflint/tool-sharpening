@@ -20,8 +20,6 @@
 Use `hjkl` with motions
 Eg delete 6 lines `d7j` - delete 7 lines down
 
-
-
 ## Deletions
 
 `dw` delete a word
